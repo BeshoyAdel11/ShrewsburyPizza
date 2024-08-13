@@ -42,7 +42,7 @@ function Sidebar(props) {
                 </Link>
               </li>
               <li>
-                <Link to="/myprofile">
+                <Link to="/myCart">
                   <img src={MyCart}></img> My Cart
                 </Link>
               </li>
