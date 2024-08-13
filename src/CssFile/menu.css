@@ -1,0 +1,281 @@
+.menu-search {
+  width: 945px;
+  height: 72px;
+  position: absolute;
+  top: 123px;
+  left: 216px;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-search h1 {
+  width: 270px;
+  height: 72px;
+  font-size: 48px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 72px;
+  color: #000000;
+}
+.menu-search input {
+  width: 635px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  outline: none;
+}
+.menu-search input::placeholder {
+}
+.menu-search h1 span {
+  color: #00833f;
+}
+@media only screen and (max-width: 600px) {
+  .menu-search {
+    width: 375px;
+    height: 72px;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    justify-content: space-evenly;
+  }
+  .menu-search h1 {
+    width: 103px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+  .menu-search input {
+    width: 216px;
+    height: 29px;
+  }
+}
+.menu {
+  width: 1009px;
+  height: auto;
+  position: absolute;
+  top: 235px;
+  left: 216px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+/**/
+@media only screen and (max-width: 600px) {
+  .menu {
+    width: 375px;
+    height: auto;
+    position: absolute;
+    top: 235px;
+    left: 0px;
+    justify-content: center;
+  }
+}
+/**/
+.division-menu {
+  width: 295px;
+  height: 545px;
+  position: relative;
+}
+.division-menu img {
+  width: 269px;
+  height: 235px;
+  z-index: 1;
+  position: absolute;
+  left: 9px;
+}
+/**/
+@media only screen and (max-width: 600px) {
+  .division-menu {
+    width: 295px;
+    height: 502px;
+  }
+  .division-menu img {
+    width: 201px;
+    height: 163px;
+    position: absolute;
+    left: 47px;
+    z-index: 1;
+  }
+}
+/**/
+.division-menu-info {
+  width: 295px;
+  height: 399px;
+  position: absolute;
+  top: 146px;
+  border-radius: 54px;
+  border: 1px solid #c1c1c1;
+}
+.division-menu-info h4 {
+  width: 170px;
+  height: 30px;
+  position: absolute;
+  top: 116px;
+  left: 24px;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000000;
+}
+.division-menu-info select {
+  width: 55px;
+  height: 30px;
+  position: absolute;
+  top: 116px;
+  left: 216px;
+  border-radius: 5px;
+  border: 1px solid #828282;
+}
+.division-menu-info ul {
+  width: 120px;
+  height: 20px;
+  position: absolute;
+  top: 167px;
+  left: 24px;
+  border-radius: 5px;
+  gap: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.division-menu-info ul .fa-star {
+  width: 20px;
+  height: 20px;
+  color: #fbc305;
+}
+.division-menu-info .fa-heart {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 161px;
+  left: 239px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.division-menu-info p {
+  width: 240px;
+  height: 110px;
+  position: absolute;
+  top: 217px;
+  left: 27px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 21px;
+  color: #7b4128;
+  text-align: center;
+}
+.division-menu-info span {
+  width: 31px;
+  height: 36px;
+  position: absolute;
+  top: 339px;
+  left: 24px;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 36px;
+  color: #00833f;
+}
+
+.division-menu-info .fa-store {
+  width: 48px;
+  height: 44px;
+  position: absolute;
+  top: 335px;
+  left: 223px;
+  background-color: #00833f;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.menu button {
+  width: 178px;
+  height: 70px;
+  border-radius: 8px;
+  border: 1px solid #00833f;
+  padding: 20px, 50px, 20px, 50px;
+  gap: 10px;
+  background-color: #00833f;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Poppins;
+  line-height: 30px;
+  color: #ffffff;
+  margin: auto;
+  transition: 1s;
+}
+.menu button:hover {
+  background-color: #ffffff;
+  color: #00833f;
+}
+@media only screen and (max-width: 600px) {
+  .division-menu-info {
+    width: 295px;
+    height: 445px;
+    top: 57px;
+  }
+  .division-menu-info h4 {
+    width: 170px;
+    height: 30px;
+    top: 122px;
+    left: 24px;
+  }
+  .division-menu-info select {
+    width: 55px;
+    height: 24px;
+    top: 122px;
+    left: 216px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  .division-menu-info ul {
+    width: 120px;
+    height: 20px;
+    top: 174px;
+    left: 24px;
+  }
+  .division-menu-info ul .fa-star {
+    color: #fbc305;
+  }
+  .division-menu-info .fa-heart {
+    top: 168px;
+  }
+  .division-menu-info p {
+    width: 240px;
+    height: 115px;
+    top: 229px;
+    left: 28px;
+  }
+  .division-menu-info span {
+    width: 40px;
+    height: 36px;
+    top: 383px;
+  }
+
+  .division-menu-info .fa-store {
+    width: 48px;
+    height: 44px;
+    top: 377px;
+    left: 223px;
+  }
+  .menu button {
+    width: 168px;
+    height: 62px;
+  }
+}

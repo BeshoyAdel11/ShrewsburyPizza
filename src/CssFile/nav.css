@@ -1,0 +1,258 @@
+.Hero {
+  width: 1440px;
+  height: 91px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbf4d8;
+}
+
+.Hero .about {
+  width: 900px;
+  height: 91px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Hero .about img {
+  width: 80px;
+  height: 80px;
+}
+
+.Hero .about .nav-list {
+  width: 700px;
+  height: 91px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.Hero .about .nav-list li {
+  height: 36px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 36px;
+  color: #000000;
+  transition: 1s;
+}
+
+.Hero .about .nav-list li:nth-child(1) {
+  width: 72px;
+}
+.Hero .about .nav-list li:nth-child(2) {
+  width: 68px;
+}
+.Hero .about .nav-list li:nth-child(3) {
+  width: 126px;
+}
+.Hero .about .nav-list li:nth-child(4) {
+  width: 109px;
+}
+.Hero .about .nav-list li:nth-child(5) {
+  width: 134px;
+}
+.Hero .about .nav-list li a {
+  text-decoration: none;
+  color: #000000;
+}
+.Hero .about .nav-list li a:hover {
+  color: #00833f;
+}
+/*
+  .Hero .about .nav-list li .home {
+    color: #00833F;
+  }
+  */
+.Hero .about .nav-list li:nth-child(2):hover .menu-list {
+  display: block;
+}
+.Hero .about .nav-list .menus .menu-list {
+  width: 136px;
+  height: 153px;
+  position: absolute;
+  top: 55px;
+  left: 262px;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0px;
+  background-color: #ffffff;
+  z-index: 1;
+  display: none;
+}
+
+.Hero .about .nav-list .menus .menu-list li {
+  width: 136px;
+  height: 19px;
+  padding: 25px;
+  border-bottom: #908e8e 1px solid;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19.4px;
+  font-family: Poppins;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
+.Hero .about .nav-list .menus .menu-list li:hover {
+  color: #00833f;
+}
+
+/**/
+.login {
+  width: 250px;
+  height: 91px;
+}
+
+.login ul {
+  width: 250px;
+  height: 91px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.login ul li .madi_cart {
+  width: 40px;
+  height: 40px;
+}
+.login ul li button {
+  width: 94px;
+  height: 50px;
+  padding: 10px, 20px, 10px, 20px;
+  border: 1px solid #00833f;
+  background-color: #f8f5f9;
+  border-radius: 8px;
+  gap: 10px;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 30px;
+  transition: 1s;
+}
+
+.login ul li button a {
+  text-decoration: none;
+  color: #00833f;
+}
+
+.Hero .group {
+  display: none;
+}
+/*mobile*/
+@media only screen and (max-width: 600px) {
+  .Hero {
+    width: 375px;
+    height: 100px;
+  }
+  .Hero .about {
+    width: 150px;
+    height: 100px;
+    display: block;
+    position: relative;
+  }
+  .Hero .about img {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 18px;
+    left: 16px;
+  }
+  .Hero .about .nav-list {
+    display: none;
+  }
+  .Hero .login {
+    width: 100px;
+    height: 100px;
+    background-color: #2f3137;
+    display: none;
+  }
+  .Hero .group {
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    top: 33px;
+    left: 324px;
+    cursor: pointer;
+  }
+}
+/*
+  tablet
+  @media (min-width:321px) and (max-width:768px){
+    .Hero {
+      width: 834px;
+      height:91px;
+     }
+    .Hero .about {
+      width: 536px;
+      height:76px;
+     }
+    .Hero .about img{
+      width: 76px;
+      height: 76px;
+       
+    }
+    .Hero .about .nav-list{
+      width:436px ;
+      height:24px;
+      }
+     
+     .Hero .about .nav-list li {
+    height: 24px;
+     font-size:16px ;
+     line-height: 24px;
+     
+   }
+ 
+   .Hero .about .nav-list li:nth-child(1){
+     width: 48px;
+   }
+   .Hero .about .nav-list li:nth-child(2){
+     width: 45px;
+   }
+   .Hero .about .nav-list li:nth-child(3){
+     width: 84px;
+   }
+   .Hero .about .nav-list li:nth-child(4){
+     width: 73px;
+   }
+   .Hero .about .nav-list li:nth-child(5){
+     width: 90px;
+   }
+ 
+     .login{
+      width: 106px;
+      height: 37px;
+      background-color: #F3AD3D;
+    }
+  
+    .login ul{
+      width: 106px;
+      height: 37px;
+      justify-content: space-between;
+      align-items: center;
+       padding: 0px;
+     }
+    .login ul li .madi_cart{
+      width: 24px;
+      height: 24px;
+    }
+    .login ul li button{
+      width: 58px;
+      height:37px;
+      padding:8px, 10px, 8px, 10px ;
+      font-size:14px ;
+       line-height: 21px;
+    }
+    .Hero .group {
+      display: none;
+    }
+  }
+*/

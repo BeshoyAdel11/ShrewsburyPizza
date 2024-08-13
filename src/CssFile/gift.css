@@ -1,0 +1,384 @@
+.allGift {
+  width: 1440px;
+  height: 792px;
+}
+@media only screen and (max-width: 600px) {
+  .allGift {
+    width: 375px;
+    height: 1253px;
+  }
+}
+.GiftCard {
+  width: 219px;
+  height: 72px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  position: absolute;
+  left: 156px;
+  top: 139px;
+}
+
+@media only screen and (max-width: 600px) {
+  .GiftCard {
+    width: 110px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    top: 124px;
+    left: 34px;
+  }
+}
+
+.division-gift-tow {
+  width: 670px;
+  height: 637px;
+  position: absolute;
+  top: 243px;
+  left: 156px;
+}
+.division-gift-tow form div {
+  width: 308px;
+  height: 79px;
+  gap: 16px;
+}
+
+.division-gift-tow form div:nth-child(5) {
+  width: 632px;
+  height: 200px;
+  gap: 16px;
+}
+
+.division-gift-tow label {
+  width: 308px;
+  height: 33px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.division-gift-tow label span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.division-gift-tow form {
+  width: 670px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.division-gift-tow input {
+  width: 308px;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.division-gift-tow textarea {
+  width: 632px;
+  height: 167px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.division-gift-tow select {
+  width: 308px;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #c1c1c1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b0b5c1;
+  padding-left: 24px;
+  outline: none;
+}
+
+.division-gift-tow form input::placeholder {
+  padding-left: 24px;
+  padding-top: 17px;
+  width: 89px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b0b5c1;
+}
+.division-gift-tow form textarea::placeholder {
+  padding-left: 16px;
+  width: 89px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b0b5c1;
+}
+.division-gift-tow button {
+  width: 308px;
+  height: 78px;
+  border-radius: 8px;
+  border: 1px solid #00833f;
+  padding: 20px, 50px, 20px, 50px;
+  background-color: #00833f;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.division-gift-tow button:hover {
+  background-color: #ffffff;
+  color: #00833f;
+}
+
+@media only screen and (max-width: 600px) {
+  .division-gift-tow {
+    width: 308px;
+    height: 710px;
+    top: 621px;
+    left: 34px;
+  }
+  .division-gift-tow form {
+    display: block;
+    width: 308px;
+    height: 600px;
+  }
+  .division-gift-tow form div:nth-child(5) {
+    width: 308px;
+    height: 123px;
+  }
+  .division-gift-tow input {
+    width: 308px;
+    height: 46px;
+  }
+  .division-gift-tow textarea {
+    width: 308px;
+    height: 90px;
+  }
+  .division-gift-tow select {
+    width: 308px;
+    height: 46px;
+    margin-bottom: 10px;
+  }
+  .division-gift-tow form button {
+    width: 308px;
+    height: 48px;
+    padding: 10px, 25px, 10px, 25px;
+  }
+  .division-gift-tow label {
+    height: 40px;
+    width: 300px;
+  }
+  .division-gift-tow form div {
+    width: 308px;
+    height: 100px;
+  }
+}
+
+/**/
+
+.section-gift-one {
+  width: 431px;
+  height: 637px;
+  border-radius: 8px;
+  border: 5px dashed #f79e1b;
+  border-radius: 5px;
+  position: absolute;
+  top: 139px;
+  left: 853px;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-gift-one {
+    width: 307px;
+    height: 413px;
+    top: 184px;
+    left: 34px;
+  }
+}
+
+.section-gift-tow {
+  width: 396px;
+  height: 590px;
+  position: absolute;
+  top: 163px;
+  left: 871px;
+  background: url(../images/menu-images/wave-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-gift-tow-info {
+  width: 346px;
+  height: 301px;
+  position: absolute;
+  top: 145px;
+  left: 25px;
+}
+
+.section-gift-tow h4 {
+  width: 328px;
+  height: 40px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: Porter Sans Block;
+}
+.section-gift-tow .paragrph-1 {
+  width: 249px;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+  overflow: hidden;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  font-family: Porter Sans Block;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.section-gift-tow .paragrph-2 {
+  width: 249px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-family: Porter Sans Block;
+  position: absolute;
+  top: 105px;
+  left: 50px;
+}
+.section-gift-tow .paragrph-3 {
+  width: 346px;
+  height: 108px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+  margin: 10px auto;
+  padding-left: 10px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  top: 140px;
+}
+
+.section-gift-tow .paragrph-4 {
+  width: 78px;
+  height: 35px;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+  overflow: hidden;
+  text-align: center;
+  font-family: Porter Sans Block;
+  position: absolute;
+  top: 265px;
+  left: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-gift-tow {
+    width: 272px;
+    height: 373px;
+    top: 204px;
+    left: 52px;
+  }
+
+  .section-gift-tow-info {
+    width: 222px;
+    height: 350px;
+    top: 12px;
+    left: 25px;
+  }
+  .section-gift-tow h4 {
+    width: 222px;
+    height: 55px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .section-gift-tow .paragrph-1 {
+    width: 222px;
+    height: 35px;
+    left: 0;
+    top: 50px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .section-gift-tow .paragrph-2 {
+    width: 230pxpx;
+    height: 35px;
+    left: 0;
+    top: 110px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .section-gift-tow .paragrph-3 {
+    width: 230px;
+    height: 108px;
+    top: 175px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .section-gift-tow .paragrph-4 {
+    width: 100px;
+    height: 35px;
+    top: 300px;
+    left: 77px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.section-gift-three {
+  width: 40px;
+  height: 590px;
+  position: absolute;
+  top: 163px;
+  left: 1306px;
+  background: url(../images/menu-images/wave.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-gift-three {
+    width: 20px;
+    height: 373px;
+    top: 205px;
+    left: 354px;
+    border-radius: 5px;
+  }
+}

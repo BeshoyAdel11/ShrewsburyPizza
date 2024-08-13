@@ -1,0 +1,141 @@
+.Shrewsbury {
+  width: 1440px;
+  height: 773px;
+  position: relative;
+}
+
+.Shrewsbury h1 {
+  width: 736px;
+  height: 240px;
+  position: absolute;
+  top: 171px;
+  left: 80px;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 77.6px;
+  text-align: center;
+  color: #675757;
+}
+
+.Shrewsbury p {
+  width: 572px;
+  height: 92px;
+  position: absolute;
+  top: 472px;
+  left: 147px;
+  font-weight: 400;
+  font-size: 20.47px;
+  line-height: 30.7px;
+  text-align: center;
+  color: #7b4128;
+}
+
+.Shrewsbury span {
+  color: #00833f;
+}
+
+.Shrewsbury .btn-1 {
+  width: 206px;
+  height: 70px;
+  position: absolute;
+  top: 620px;
+  left: 238px;
+  border-radius: 8px;
+  border: 1px solid #00833f;
+  padding: 20px, 50px, 20px, 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #00833f;
+  transition: 1s;
+}
+
+.Shrewsbury .btn-1:hover {
+  background-color: #ffffff;
+  color: #00833f;
+}
+
+.Shrewsbury .btn-2 {
+  width: 192px;
+  height: 70px;
+  position: absolute;
+  top: 620px;
+  left: 480px;
+  border-radius: 8px;
+  border: 1px solid #00833f;
+  padding: 20px, 30px, 20px, 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #00833f;
+  transition: 1s;
+}
+
+.Shrewsbury .btn-2:hover {
+  background-color: #00833f;
+  color: #ffffff;
+}
+
+.Shrewsbury .slice {
+  width: 561px;
+  height: 686px;
+  position: absolute;
+  top: 91px;
+  left: 880px;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .Shrewsbury {
+    width: 375px;
+    height: 812px;
+  }
+  .Shrewsbury h1 {
+    width: 308px;
+    height: 111px;
+    top: 132px;
+    left: 16px;
+    line-height: 36.86px;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: left;
+  }
+
+  .Shrewsbury p {
+    width: 152px;
+    height: 297px;
+    top: 283px;
+    left: 16px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .Shrewsbury .btn-1 {
+    width: 142px;
+    height: 48px;
+    top: 628px;
+    left: 16px;
+    line-height: 19.5px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Shrewsbury .btn-2 {
+    width: 142px;
+    height: 42px;
+    top: 692px;
+    left: 16px;
+    line-height: 19.5px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Shrewsbury .slice {
+    width: 195px;
+    height: 712px;
+    top: 100px;
+    left: 180px;
+  }
+}
